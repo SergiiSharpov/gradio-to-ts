@@ -1,0 +1,15 @@
+{
+  "name": "gradio-ts-compiler",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Sergey Sharpov",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "build": "tsc --project tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.11",
+    "typescript": "^5.4.5"
+  }
+}

@@ -1,0 +1,6 @@
+[submodule "gradio-ts"]
+	path = gradio-ts
+	url = https://github.com/SergiiSharpov/gradio-ts.git
+[submodule "gradio"]
+	path = gradio
+	url = https://github.com/SergiiSharpov/gradio.git
