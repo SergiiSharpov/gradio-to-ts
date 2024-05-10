@@ -2,16 +2,16 @@
 
 To build the library using npm, run the following command:
 
-```bash
+```
 npm install
 npm run build
-npm run pack
+npm run dist
 ```
 
 To build the library using yarn, run the following command:
 
-```bash
+```
 yarn
 yarn build
-yarn pack
+yarn dist
 ```

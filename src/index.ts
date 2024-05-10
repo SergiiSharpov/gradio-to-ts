@@ -3,7 +3,7 @@ import * as fs from "node:fs";
 
 import packageJSON from "../gradio/client/js/package.json";
 
-const { name, version, description, author, main, types } = packageJSON;
+const { name, version, description, author, main, types, dependencies } = packageJSON;
 const license = "MIT";
 
 const SrcFolder = path.join(__dirname, "../gradio/client/js/dist");
@@ -67,6 +67,7 @@ const createPackageJSON = (dest: string) => {
     main,
     types,
     license,
+    dependencies
   };
 
   fs.writeFileSync(path.join(dest, "../package.json"), JSON.stringify(packageJSON, null, 2));
