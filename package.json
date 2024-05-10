@@ -5,7 +5,7 @@
   "author": "Sergey Sharpov",
   "main": "dist/index.js",
   "scripts": {
-    "start": "node ./dist/index.js",
+    "pack": "node ./dist/index.js",
     "build": "tsc --project tsconfig.json"
   },
   "devDependencies": {
